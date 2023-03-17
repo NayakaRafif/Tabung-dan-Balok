@@ -42,7 +42,7 @@ Balok(double panjang, double lebar, double tinggi) {
 
     @Override
     public double hitungLuasPermukaanBalok() {
-        return (2*(panjang*lebar)+(lebar*tinggi)+(tinggi*panjang));
+        return 2*(panjang*lebar +lebar*tinggi+tinggi*panjang);
     }
     
 }
